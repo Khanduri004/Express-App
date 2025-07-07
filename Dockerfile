@@ -10,3 +10,4 @@ COPY . .
 EXPOSE 3000
 # Start the app
 CMD ["npm", "start"]
+# This tells Docker what command to run when the container starts, *npm start* runs the start script from your* package.json.*
