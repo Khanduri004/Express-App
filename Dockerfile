@@ -1,7 +1,7 @@
 FROM node:18-alpine
 WORKDIR /app
 #Copy package files first for caching
-COPY pacakge*.json ./
+COPY package*.json ./
 #Install dependencies
 RUN npm install
 #Copy the rest of the applications
